@@ -28,7 +28,7 @@ def main():
     print("Welcome to Rock-Paper-Scissors!")
     score = {"Player": 0, "Computer": 0}
     while True:
-        choice = input("\nEnter your choice (rock, paper, scissors) or 'q' to quit:")
+        choice = input("\nEnter your choice (rock, paper, scissors) or 'q' to quit:").lower().strip()
         print()
         if choice == "q":
             break
